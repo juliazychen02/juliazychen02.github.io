@@ -10216,7 +10216,7 @@ p.lead {
     font-size: 3rem;
 }
 
-section.about {
+section.page {
     display: flex;
     align-items: center;
     padding-left: 1rem;
@@ -10226,18 +10226,18 @@ section.about {
     max-width: 75rem;
 }
 
-section.about .about-content {
+section.page .page-content {
     width: 100%;
 }
 
 @media (min-width: 768px) {
-    section.about {
+    section.page {
         min-height: 100vh;
     }
 }
 
 @media (min-width: 992px) {
-    section.about {
+    section.page {
         padding-left: 3rem;
         padding-right: 3rem;
         padding-top: 5rem;

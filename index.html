@@ -2,11 +2,8 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link rel="icon" href="assets/img/logo.svg">
@@ -14,32 +11,44 @@
     <title>Julia Chen</title>
 </head>
 
-<body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="sideNav">
+        <!--Brand logo-->
+        <a class="navbar-brand" href="#page-top">
             <span class="d-block d-lg-none">Julia Chen</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/logo.svg" alt="" /></span>
+            <span class="d-lg-block d-none "><img class="img-fluid img-profile rounded-circle mb-2" src="assets/img/logo.svg" alt="My logo"></span>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Toggler/collapsible Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger active" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#interests">Interests</a>
+                </li>
             </ul>
         </div>
     </nav>
     <!-- Page Content-->
     <div class="container-fluid p-0">
         <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Julia
-                    <span class="text-primary">Chen</span>
-                </h1>
+        <section class="about" id="about">
+            <div class="about-content">
+                <h1>Julia <span class="text-primary">Chen</span></h1>
                 <p class="lead mb-5">I'm a first year student studying Computing and Financial Management at the University of Waterloo, class of 2025.</p>
                 <div class="social-icons">
                     <a class="social-icon" href="mailto:juliazychen@gmail.com"><i class="fa fa-envelope"></i></a>
@@ -52,8 +61,8 @@
     </section>
     <hr class="m-0" />
     <!-- Experience-->
-    <section class="resume-section" id="resume">
-        <div class="resume-section-content">
+    <section class="about" id="resume">
+        <div class="about-content">
             <h2 class="mb-5">Resume</h2>
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
@@ -65,8 +74,8 @@
     </section>
     <hr class="m-0" />
     <!-- Education-->
-    <section class="resume-section" id="projects">
-        <div class="resume-section-content">
+    <section class="about" id="projects">
+        <div class="about-content">
             <h2 class="mb-5">Projects</h2>
 
             <div class="container">
@@ -125,8 +134,8 @@
     </section>
     <hr class="m-0" />
     <!-- Skills-->
-    <section class="resume-section" id="skills">
-        <div class="resume-section-content">
+    <section class="about" id="skills">
+        <div class="about-content">
             <h2 class="mb-5">Skills</h2>
             <div class="subheading mb-3">Programming Languages & Tools</div>
             <ul class="list-inline dev-icons">
@@ -141,8 +150,8 @@
     </section>
     <hr class="m-0" />
     <!-- Interests-->
-    <section class="resume-section" id="interests">
-        <div class="resume-section-content">
+    <section class="about" id="interests">
+        <div class="about-content">
             <h2 class="mb-5">Interests</h2>
             <p>Outside of school, some of my hobbies including playing the piano, listening and making music, and baking. I'm interested in healthcare technology, productivity, and FinTech.</p>
         </div>

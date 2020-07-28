@@ -27,9 +27,14 @@ h4 {
     color: black;
 }
 
-.nav-link {
+p {
     font-size: 1.2rem;
-    font-weight: 400px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #343a40;
 }
 
 .btn {
@@ -71,8 +76,14 @@ a:hover {
 }
 
 p.lead {
-    font-size: 1.15rem;
+    font-size: 1.35rem;
     font-weight: 400;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .card {
@@ -111,8 +122,19 @@ hr {
     margin-right: 0;
 }
 
-.social-icons .social-icon:hover {
+.social-icon:hover,
+.social-icon:focus {
     background-color: #f28883;
+    animation: pulse 1s;
+    transform: scale(1.05);
+    box-shadow: 0 0 0 0.5rem #ffd3d1;
+    transition: 0.5s ease;
+}
+
+@keyframes social-icon {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
 }
 
 .dev-icons {

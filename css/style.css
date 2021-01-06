@@ -88,6 +88,7 @@ p.lead {
 
 .card {
     max-width: 800px;
+    margin-bottom: 50px;
 }
 
 hr {

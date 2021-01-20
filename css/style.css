@@ -172,6 +172,11 @@ section.page .page-content {
     margin: 3rem;
 }
 
+footer {
+    background-color: #f8f9fa;
+    padding-top: 1rem;
+}
+
 @media (min-width: 768px) {
     section.page {
         min-height: 100vh;

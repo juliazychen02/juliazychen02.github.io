@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    padding-top: 3.375rem;
     color: #6c757d;
 }
 
@@ -84,6 +83,10 @@ p.lead {
     display: flex;
     justify-content: center;
     padding-bottom: 0;
+}
+
+.resume{
+    padding-top: 30px;
 }
 
 .card {
@@ -163,6 +166,10 @@ section.page {
 
 section.page .page-content {
     width: 100%;
+}
+
+.alt-format{
+    margin: 3rem;
 }
 
 @media (min-width: 768px) {

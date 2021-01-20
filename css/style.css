@@ -93,6 +93,7 @@ p.lead {
 
 hr {
     box-sizing: content-box;
+    margin: 0;
     height: 0;
     overflow: visible;
 }
@@ -158,7 +159,6 @@ section.page {
     padding-right: 1rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    max-width: 75rem;
 }
 
 section.page .page-content {

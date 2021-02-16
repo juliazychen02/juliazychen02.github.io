@@ -135,9 +135,12 @@ hr {
     margin-right: 1.5rem;
 }
 
-.social-icons .social-icon:last-child {
-    margin-right: 0;
+.social-icon {
     transition: 0.5s ease;
+}
+
+.social-icons {
+    margin-right: 0;
 }
 
 .social-icon:hover,

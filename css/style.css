@@ -48,14 +48,6 @@ p {
     border-color: #495057;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active,
-.btn-primary:not(:disabled):not(.disabled).active,
-.show>.btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #495057;
-    border-color: #495057;
-}
-
 .subheading {
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -144,7 +136,7 @@ hr {
 }
 
 .social-icon:hover,
-.social-icon:focus {
+.social-icon:active {
     background-color: #f28883;
     animation: pulse 1s;
     transform: scale(1.05);
